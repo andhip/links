@@ -48,8 +48,8 @@ a {
 .dd a,
 .dd::before,
 .dd {
-    background: #333333;
-    color: #333333;
+    background: #dd911ff8;
+    color: #e7a84a;
 }
 
 .cp a,
@@ -58,6 +58,7 @@ a {
     background: #4ecac0;
     color: #53ccc2;
 }
+
 
 
 /* liquid */
@@ -69,8 +70,12 @@ body {
     overflow: hidden;
     
 }
+
+
 .gegga {
-    width: 0;  
+    width: 0;
+    
+
   }
   .snurra {
     filter: url(#gegga);
@@ -106,8 +111,51 @@ body {
       stroke-dashoffset: -403px;
     }
   }
+  
+  
+
+/* Close-button */
+
+/* .close-button {
+    background: #ffffff;
+    box-shadow: 0px 4px 12px #cc8989;
+    border-radius: 80px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 80%;
+    left: 49%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.close-button:hover {
+    background: rgb(223, 0, 0);
+    box-shadow: 0px 12px 25px -12px,
+        0px 0px 25px -12px;
+    border-radius: 80px;
+}
+.close-button svg {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+    transition: 400ms ease;
+}
+.close-button:hover svg {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+.close-button:hover path {
+    stroke: #ffffff;
+} */
+
+
 
 /* chatButton */
+
+
 .chat {
     display: flex;
     position: absolute;
@@ -171,6 +219,10 @@ body {
   .active .circle {
     transform: scale(0);
   }
+  
+
+
+
 
 ul#buttons {
     padding: 0;
@@ -341,6 +393,26 @@ ul#buttons li:hover:before {
     }
 
 
+    /* .close-button {
+        position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 80%;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    }
+    .close-button:hover svg {
+        transform: translate(-50%, -50%) rotate(150deg);
+    }
+    .close-button:hover path {
+        stroke: #ffffff;
+    } */
+
+
+    
+    
+
     /* chatIcon */
 .chat {
     content: center;
@@ -457,6 +529,26 @@ ul#buttons li:hover:before {
     }
 
 
+    /* .close-button {
+        position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 80%;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    }
+    .close-button:hover svg {
+        transform: translate(-50%, -50%) rotate(150deg);
+    }
+    .close-button:hover path {
+        stroke: #ffffff;
+    } */
+
+
+    
+    
+
     /* chatIcon */
 .chat {
     content: center;
@@ -537,4 +629,3 @@ ul#buttons li:hover:before {
     overflow: hidden;
     
 }
-
