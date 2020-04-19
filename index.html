@@ -46,6 +46,59 @@
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
+                <li class="cp">
+                    <a href="" title="codepen">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                
+                 <!-- liquid loader -->
+            <div class="liquid">
+                <svg class="gegga">
+                    <defs>
+                        <filter id="gegga">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10"
+                                result="inreGegga" />
+                            <feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="snurra" width="130" height="200" viewBox="0 0 200 200">
+                    <defs>
+                        <linearGradient id="linjärGradient">
+                            <stop class="stopp1" offset="0" />
+                            <stop class="stopp2" offset="1" />
+                        </linearGradient>
+                        <linearGradient y2="160" x2="160" y1="40" x1="40" gradientUnits="userSpaceOnUse" id="gradient"
+                            xlink:href="#linjärGradient" />
+                    </defs>
+                    <path class="halvan"
+                        d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64" />
+                    <circle class="strecken" cx="100" cy="100" r="64" />
+                </svg>
+            </div>
+            <!-- end liquid loader -->
+
+            <!-- icon chat -->
+            <div class="chat" onclick="this.classList.toggle('active')">
+                <div class="background"></div>
+                <svg class="chat-bubble" width="80" height="80" viewBox="0 0 100 100">
+                    <g class="bubble">
+                        <path class="line line1" d="M 30.7873,85.113394 30.7873,46.556405 C 30.7873,41.101961
+                    36.826342,35.342 40.898074,35.342 H 59.113981 C 63.73287,35.342
+                    69.29995,40.103201 69.29995,46.784744" />
+                        <path class="line line2" d="M 13.461999,65.039335 H 58.028684 C
+                      63.483128,65.039335
+                      69.243089,59.000293 69.243089,54.928561 V 45.605853 C
+                      69.243089,40.986964 65.02087,35.419884 58.339327,35.419884" />
+                    </g>
+                    <circle class="circle circle1" r="1.9" cy="50.7" cx="42.5" />
+                    <circle class="circle circle2" cx="49.9" cy="50.7" r="1.9" />
+                    <circle class="circle circle3" r="1.9" cy="50.7" cx="57.3" />
+                </svg>
+            </div>
+            <!-- last icon chat -->
 
             </ul>
         </div>
