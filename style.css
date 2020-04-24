@@ -156,7 +156,7 @@ body {
 /* chatButton */
 
 
-.chat {
+/* .chat {
     display: flex;
     position: absolute;
     margin: 0;
@@ -219,7 +219,7 @@ body {
   .active .circle {
     transform: scale(0);
   }
-  
+   */
 
 
 
@@ -416,7 +416,7 @@ ul#buttons li:hover:before {
     
 
     /* chatIcon */
-.chat {
+/* .chat {
     content: center;
     display: flex;
     position: absolute;
@@ -477,7 +477,7 @@ ul#buttons li:hover:before {
   }
   .active .circle {
     transform: scale(0);
-  }
+  } */
   
   /* liquid */
   .liquid {
