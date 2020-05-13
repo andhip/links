@@ -48,8 +48,8 @@ a {
 .dd a,
 .dd::before,
 .dd {
-    background: #dd911ff8;
-    color: #e7a84a;
+    background: #ecb939;
+    color: #ffcf40;
 }
 
 .cp a,
@@ -58,6 +58,13 @@ a {
     background: #4ecac0;
     color: #53ccc2;
 }
+.db a,
+.db::before,
+.db {
+  background: #ea4c89;
+  color: #ea4c89;
+}
+
 
 
 
