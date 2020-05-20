@@ -247,7 +247,7 @@ ul#buttons {
 }
 
 ul#buttons:before {
-    content: "<Andy>";
+    content: "<Get In Touch>";
     font-size: 3em;
     font-family: Arial;
     font-weight: 300;
