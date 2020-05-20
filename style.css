@@ -377,7 +377,7 @@ ul#buttons li:hover:before {
     }
 
     ul#buttons:before {
-        content: "<Andy>";
+        content: "<Get In Touch>";
         font-size: 2.1rem;
         font-family: Arial;
         font-weight: 250;
