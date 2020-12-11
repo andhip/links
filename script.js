@@ -65,3 +65,7 @@ $(document).ready(() => {
 	gtag('config', 'UA-177429414-1');
 
 });
+
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
