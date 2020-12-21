@@ -63,7 +63,6 @@ body {
 .cr p {
 	color: var(--highlight-color);
 	font-size: 14px;
-	margin-top:5px;
 	margin-bottom: 4rem;
 }
 
@@ -120,11 +119,13 @@ footer#connect a{
      align-items: center;
      justify-content: center !;
  }
- 
+  .portfolio img {
+	 border-radius: 4px;
+ }
   .portfolio-item {
     overflow: hidden;
     padding: 10px 15px 8px 15px;
-     margin-bottom: 30px;
+     margin-bottom: 7px;
      flex: 1 0 24rem;
      transform: translateZ(0);
  }
@@ -170,7 +171,7 @@ footer#connect a{
  }
  
  .portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
-   color: #dbdbdb;
+   color: var(--highlight-color);
  }
  
  .portfolio #portfolio-filters li:last-child {
@@ -181,12 +182,12 @@ footer#connect a{
  @media (max-width: 768px){
 	.cr p {
 		color: var(--highlight-color);
-		font-size: 11px;
+		font-size: 12px;
 	}
 }
 @media (max-width: 360px){
 	.cr p {
 		color: var(--highlight-color);
-		font-size: 11px;
+		font-size: 12px;
 	}
 }
