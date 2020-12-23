@@ -156,8 +156,8 @@ footer#connect a{
   
 @media (max-width: 768px){
 	.circle-shape {
-	width: 25vw;
-	height: 25vw;
+	width: 26vw;
+	height: 26vw;
 	position: relative;
 	overflow: hidden;
 	border-radius: 50%;
@@ -179,8 +179,8 @@ footer#connect a{
 }
 @media (max-width: 360px){
 	.circle-shape {
-	width: 25vw;
-	height: 25vw;
+	width: 26vw;
+	height: 26vw;
 	position: relative;
 	overflow: hidden;
 	border-radius: 50%;
