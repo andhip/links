@@ -1,6 +1,4 @@
-Personal Use Only!
-Don't copy without my permission.
-<!- Copyright © 2020 Andhi Puspianto, http://andhip.github.io/links
+
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
