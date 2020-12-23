@@ -244,8 +244,8 @@ svg:not(root){
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(75%);
-	filter: grayscale(75%);
+	-webkit-filter: grayscale(88%);
+	filter: grayscale(88%);
 	float: left;
 	justify-content: center;
 	align-items: center;
@@ -471,8 +471,8 @@ footer#connect a:hover{
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(75%);
-	filter: grayscale(75%);
+	-webkit-filter: grayscale(85%);
+	filter: grayscale(85%);
 	float: left;
 	justify-content: center;
 	align-items: center;
@@ -584,8 +584,8 @@ footer#connect a:hover{
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(75%);
-	filter: grayscale(75%);
+	-webkit-filter: grayscale(85%);
+	filter: grayscale(85%);
 	float: left;
 	justify-content: center;
 	align-items: center;
