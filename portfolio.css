@@ -121,7 +121,7 @@ body {
 	padding-top: calc(8,15vh + .1vw);
 	width: 100%;
 	height: auto;
-	padding-bottom: 3vw;
+	padding-bottom: 1vw;
 }
 
 @media (max-aspect-ratio: 46/27) {
@@ -134,7 +134,7 @@ body {
 
 @media (min-aspect-ratio: 46/27) {
 	.hero {
-	padding-top: 1.5px;
+	padding-top: 3rem;
 	}
 }
 
@@ -143,12 +143,16 @@ body, h1{
 }
 
 h1 {
+	font-weight: 400;
 	font-size: 14vw;
 	line-height: 11vw;
 	letter-spacing: -.01em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Saol Display', sans-serif;
 }
 
-h1, h2 {
+h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-family: 'Saol Display', sans-serif;
@@ -192,6 +196,8 @@ h3,h4 {
 .h-title{
 	font-size: 16px;
 	text-align: center;
+	font-family: 'Saol Display', sans-serif;
+	text-transform: none;
 }
 .h-head-w{
 	position: relative;
@@ -212,8 +218,23 @@ h3,h4 {
 .h-box{
 	margin-right: 7vw;
 	margin-left: 8.5vw;
-	padding-top: 7vw;
+	padding-top: 8vw;
 }
+
+/* SVG Line Path */
+.h-tape {
+	position: absolute;
+	left: 0.7vw;
+	bottom: 3.7vw;
+	width: 100%;
+}
+svg:not(root){
+	overflow: hidden;
+}
+.w-emved::after, .w-emved::before {
+	display: table;
+}
+
 
 .h-image{
 	width: 18vw;
@@ -228,7 +249,7 @@ h3,h4 {
 	float: left;
 	justify-content: center;
 	align-items: center;
-	margin: 8px ;
+	margin: 7.4px;
 	left: 3%;
 	position: relative;
 }
@@ -399,10 +420,8 @@ footer#connect a:hover{
  .portfolio #portfolio-filters li:last-child {
    margin-right: 0;
  }
-  
-  
+
  @media (max-width: 768px){
-	
 		
 	h1 {
 		font-size: 15vw;
@@ -462,6 +481,20 @@ footer#connect a:hover{
 	position: relative;
 	}
 
+		/* SVG Line Path */
+	.h-tape {
+		position: absolute;
+		left: 5.3vw;
+		bottom: 3vw;
+		width: 90%;
+	}
+	svg:not(root){
+		overflow: hidden;
+	}
+	.w-emved::after, .w-emved::before {
+		display: table;
+	}
+
 	.portfolio img {
 		border-radius: 6px;
 		-webkit-filter: grayscale(90%);
@@ -500,6 +533,7 @@ footer#connect a:hover{
 		justify-content: center;
 	  }
 }
+
 @media (max-width: 360px){
 
 	h1 {
@@ -558,6 +592,20 @@ footer#connect a:hover{
 	margin: 3px ;
 	left: 3%;
 	position: relative;
+	}
+	
+		/* SVG Line Path */
+	.h-tape {
+		position: absolute;
+		left: 5.3vw;
+		bottom: 3vw;
+		width: 90%;
+	}
+	svg:not(root){
+		overflow: hidden;
+	}
+	.w-emved::after, .w-emved::before {
+		display: table;
 	}
 
 	.portfolio img {
