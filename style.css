@@ -155,6 +155,22 @@ footer#connect a{
   
   
 @media (max-width: 768px){
+	.circle-shape {
+	width: 25vw;
+	height: 25vw;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid var(--grey-color);
+	margin: 0 auto;
+	}
+
+	.profile-pic {
+		display: inline;
+		margin: 0 auto;
+		height: 100%;
+		width: auto;
+	}
 	.cr p {
 		color: var(--highlight-color);
 		font-size: 11px;
@@ -162,6 +178,22 @@ footer#connect a{
 	}
 }
 @media (max-width: 360px){
+	.circle-shape {
+	width: 25vw;
+	height: 25vw;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid var(--grey-color);
+	margin: 0 auto;
+	}
+
+	.profile-pic {
+		display: inline;
+		margin: 0 auto;
+		height: 100%;
+		width: auto;
+	}
 	.cr p {
 		color: var(--highlight-color);
 		font-size: 11px;
