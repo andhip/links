@@ -156,8 +156,7 @@ h1, h2 {
 }
 h3{
 	font-style: italic;
-	background-color: #fadd01ea;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: -.02em;
 	text-transform: none;
 	margin-top: 0;
@@ -417,7 +416,8 @@ footer#connect a:hover{
 		font-family: 'Saol Display', sans-serif;
 		font-weight: 400;
 	}
-	h3{
+	h3{	
+		background-color: #fadd01ea;
 		font-style: italic;
 		font-weight: 600;
 		letter-spacing: -.02em;
@@ -516,6 +516,7 @@ footer#connect a:hover{
 		font-weight: 400;
 	}
 	h3{
+		background-color: #fadd01ea;
 		font-style: italic;
 		font-weight: 600;
 		letter-spacing: -.02em;
