@@ -482,11 +482,17 @@ footer#connect a:hover{
 	}
 
 		/* SVG Line Path */
-	.h-tape {
+/* 	 .h-tape {
 		position: absolute;
 		left: 5.3vw;
 		bottom: 3vw;
 		width: 90%;
+	} */
+	.h-tape {
+		position: absolute;
+		left: 7vw;
+		bottom: 4vw;
+		width: 75%;
 	}
 	svg:not(root){
 		overflow: hidden;
