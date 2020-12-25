@@ -597,9 +597,9 @@ footer#connect a:hover{
 		/* SVG Line Path */
 	.h-tape {
 		position: absolute;
-		left: 5.3vw;
+		left: 6vw;
 		bottom: 3vw;
-		width: 90%;
+		width: 70%;
 	}
 	svg:not(root){
 		overflow: hidden;
