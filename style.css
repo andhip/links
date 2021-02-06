@@ -158,6 +158,10 @@ footer#connect a{
   
   
 @media (max-width: 768px){
+
+	.container .link-list {
+		margin-bottom: 1rem;
+	}
 	.circle-shape {
 	width: 26vw;
 	height: 26vw;
