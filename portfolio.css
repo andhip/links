@@ -159,7 +159,7 @@ body:before {
 
 @media (min-aspect-ratio: 46/27) {
   .hero {
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 }
 
