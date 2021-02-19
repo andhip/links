@@ -352,7 +352,7 @@ svg:not(root) {
   padding-bottom: 4vw;
 }
 .i-wrap {
-  padding-top: 8vw;
+  padding-top: 8.8vw;
   padding-left: 32vw;
 }
 .i-box {
@@ -370,11 +370,10 @@ svg:not(root) {
   clear: both;
 }
 .i-link {
-  letter-spacing: -0.06em;
   text-decoration: none;
   color: var(--main-color);
   font-size: 1.5vw;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.08em;
   background-color: transparent;
 }
 
@@ -390,6 +389,7 @@ svg:not(root) {
   font-family: "NF Chimaera Sans", sans-serif;
   font-size: 13px;
   line-height: 1vw;
+  float: left;
 }
 
 /* ----------------------------------------------------------------------------- 
@@ -504,6 +504,39 @@ footer#connect a:hover {
   margin-right: 0;
 }
 
+/* ===========BACK2TOP========== */
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 45px;
+  height: 45px;
+  border: solid 1px var(--main-color);
+  border-radius: 50px;
+  right: 18px;
+  bottom: 25px;
+  background: transparent;
+  color: var(--main-color);
+  z-index: 99999;
+}
+
+.back-to-top i {
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  padding: 8px 8px 8px 9.2px;
+}
+
+.back-to-top:hover {
+  color: var(--life-color);
+  background: #27272718;
+  -webkit-transition: all 0.5s 0s ease-in-out;
+  -moz-transition: all 0.5s 0s ease-in-out;
+  -o-transition: all 0.5s 0s ease-in-out;
+  transition: all 0.5s 0s ease-in-out;
+  bottom: 2.2rem;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 15vw;
@@ -606,6 +639,24 @@ footer#connect a:hover {
     transition: all 0.3s ease-in-out;
   }
 
+  .i-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 1.6vw;
+    bottom: 0;
+    left: 0;
+    background-color: #0d0d0d;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  .i-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
   .info {
     height: auto;
     padding-bottom: 4vw;
@@ -652,39 +703,6 @@ footer#connect a:hover {
     z-index: 1;
     justify-content: center;
   }
-}
-
-/* ===========BACK2TOP========== */
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 45px;
-  height: 45px;
-  border: solid 1px var(--main-color);
-  border-radius: 50px;
-  right: 18px;
-  bottom: 25px;
-  background: transparent;
-  color: var(--main-color);
-  z-index: 99999;
-}
-
-.back-to-top i {
-  color: var(--main-color);
-  font-size: 24px;
-  font-weight: 700;
-  position: absolute;
-  padding: 8px 8px 8px 9.2px;
-}
-
-.back-to-top:hover {
-  color: var(--life-color);
-  background: #27272710;
-  -webkit-transition: all 0.5s 0s ease-in-out;
-  -moz-transition: all 0.5s 0s ease-in-out;
-  -o-transition: all 0.5s 0s ease-in-out;
-  transition: all 0.5s 0s ease-in-out;
-  bottom: 2rem;
 }
 
 @media (max-width: 360px) {
@@ -824,11 +842,11 @@ footer#connect a:hover {
 
   .back-to-top:hover {
     color: var(--life-color);
-    background: #27272710;
+    background: #27272718;
     -webkit-transition: all 0.5s 0s ease-in-out;
     -moz-transition: all 0.5s 0s ease-in-out;
     -o-transition: all 0.5s 0s ease-in-out;
     transition: all 0.5s 0s ease-in-out;
-    bottom: 2rem;
+    bottom: 2.2rem;
   }
 }
