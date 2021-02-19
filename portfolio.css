@@ -279,8 +279,6 @@ svg:not(root) {
   float: left;
   justify-content: center;
   align-items: center;
-  margin: 7.4px;
-  left: 3%;
   position: relative;
 }
 
@@ -593,8 +591,6 @@ footer#connect a:hover {
     float: left;
     justify-content: center;
     align-items: center;
-    margin: 3px;
-    left: 3%;
     position: relative;
   }
 
@@ -608,7 +604,7 @@ footer#connect a:hover {
   .h-tape {
     position: absolute;
     left: 7vw;
-    bottom: 4vw;
+    bottom: 5.4vw;
     width: 86%;
   }
   svg:not(root) {
@@ -668,7 +664,7 @@ footer#connect a:hover {
   }
 
   .i-list {
-    margin-top: 3vw;
+    margin-top: 6vw;
     clear: both;
     float: left;
   }
