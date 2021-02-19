@@ -603,9 +603,9 @@ footer#connect a:hover {
 	} */
   .h-tape {
     position: absolute;
-    left: 7vw;
+    left: 6.7vw;
     bottom: 5.4vw;
-    width: 86%;
+    width: 92%;
   }
   svg:not(root) {
     overflow: hidden;
