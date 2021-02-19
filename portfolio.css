@@ -260,8 +260,8 @@ h4 {
 svg:not(root) {
   overflow: hidden;
 }
-.w-emved::after,
-.w-emved::before {
+.w-embed::after,
+.w-embed::before {
   display: table;
 }
 
@@ -323,14 +323,72 @@ svg:not(root) {
   font-weight: 600;
   font-size: 17px;
 }
+/* ----------------------------------------------------------------------------- 
+# Info
+ ----------------------------------------------------------------------------- */
+@media (min-width: 991px) {
+  .i-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 1.6vw;
+    bottom: 0;
+    left: 0;
+    background-color: #0d0d0d;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  .i-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+.info {
+  height: auto;
+  padding-bottom: 4vw;
+}
+.i-wrap {
+  padding-top: 8vw;
+  padding-left: 32vw;
+}
+.i-box {
+  float: left;
+}
+.i-list {
+  margin-top: 3vw;
+  clear: both;
+  float: left;
+}
+.i-item {
+  margin-bottom: 0.8vw;
+  float: left;
+  position: relative;
+  clear: both;
+}
+.i-link {
+  letter-spacing: -0.06em;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1.5vw;
+  letter-spacing: -0.07em;
+  background-color: transparent;
+}
+
+.i-footer {
+  margin-top: 5rem;
+  clear: both;
+  float: left;
+  margin-bottom: 4vw;
+}
 
 .i-copy {
   color: var(--main-color);
   font-family: "NF Chimaera Sans", sans-serif;
   font-size: 13px;
   line-height: 1vw;
-  margin-bottom: 1.5rem;
-  margin-top: 3.3rem;
 }
 
 /* ----------------------------------------------------------------------------- 
@@ -475,7 +533,7 @@ footer#connect a:hover {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "Saol Display", sans-serif;
-    font-size: 4vw;
+    font-size: 4.3vw;
     line-height: 3.5vw;
   }
 
@@ -522,8 +580,8 @@ footer#connect a:hover {
   svg:not(root) {
     overflow: hidden;
   }
-  .w-emved::after,
-  .w-emved::before {
+  .w-embed::after,
+  .w-embed::before {
     display: table;
   }
 
@@ -545,6 +603,36 @@ footer#connect a:hover {
     color: var(--main-color);
     font-family: "NF Chimaera Sans", sans-serif;
     transition: all 0.3s ease-in-out;
+  }
+
+  .info {
+    height: auto;
+    padding-bottom: 4vw;
+  }
+
+  .i-wrap {
+    padding-top: 10vw;
+    padding-left: 32vw;
+  }
+
+  .i-list {
+    margin-top: 3vw;
+    clear: both;
+    float: left;
+  }
+  .i-item {
+    margin-bottom: 0.8vw;
+    float: left;
+    position: relative;
+    clear: both;
+  }
+  .i-link {
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: transparent;
+    font-size: 4.3vw;
+    line-height: 1.2em;
   }
 
   .i-copy {
