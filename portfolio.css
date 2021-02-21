@@ -171,8 +171,8 @@ h1 {
 
 h1 {
   font-weight: 400;
-  font-size: 14vw;
-  line-height: 11vw;
+  font-size: 20vw;
+  line-height: 13.9vw;
   letter-spacing: -0.01em;
   margin-top: 0;
   margin-bottom: 0;
@@ -269,13 +269,15 @@ svg:not(root) {
 .h-image {
   width: 18vw;
   height: 18vw;
-  background-image: url(assets/images/pp.jpg);
+  background-image: url(assets/images/dh.jpg);
   border-radius: 100%;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(88%);
-  filter: grayscale(88%);
+  filter: blur(4.7px);
+  -webkit-filter: blur(4.7px);
+  /* -webkit-filter: grayscale(88%);
+  filter: grayscale(88%); */
   float: left;
   justify-content: center;
   align-items: center;
@@ -537,8 +539,8 @@ footer#connect a:hover {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 15vw;
-    line-height: 11vw;
+    font-size: 20vw;
+    line-height: 13.75vw;
     letter-spacing: -0.01em;
   }
 
@@ -579,15 +581,17 @@ footer#connect a:hover {
     font-size: 10px;
   }
   .h-image {
-    width: 25vw;
-    height: 25vw;
-    background-image: url(assets/images/pp.jpg);
+    width: 18vw;
+    height: 18vw;
+    background-image: url(assets/images/dh.jpg);
     border-radius: 100%;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-filter: grayscale(85%);
-    filter: grayscale(85%);
+    filter: blur(4.7px);
+    -webkit-filter: blur(4.7px);
+    /* -webkit-filter: grayscale(88%);
+  filter: grayscale(88%); */
     float: left;
     justify-content: center;
     align-items: center;
@@ -604,8 +608,8 @@ footer#connect a:hover {
   .h-tape {
     position: absolute;
     left: 5.8vw;
-    bottom: 5.4vw;
-    width: 92%;
+    bottom: 4vw;
+    width: 85%;
   }
   svg:not(root) {
     overflow: hidden;
@@ -703,8 +707,8 @@ footer#connect a:hover {
 
 @media (max-width: 360px) {
   h1 {
-    font-size: 15vw;
-    line-height: 11vw;
+    font-size: 20vw;
+    line-height: 13.9vw;
     letter-spacing: -0.01em;
   }
 
@@ -745,20 +749,20 @@ footer#connect a:hover {
     font-size: 10px;
   }
   .h-image {
-    width: 25vw;
-    height: 25vw;
-    background-image: url(assets/images/pp.jpg);
+    width: 18vw;
+    height: 18vw;
+    background-image: url(assets/images/dh.jpg);
     border-radius: 100%;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-filter: grayscale(85%);
-    filter: grayscale(85%);
+    filter: blur(4.7px);
+    -webkit-filter: blur(4.7px);
+    /* -webkit-filter: grayscale(88%);
+  filter: grayscale(88%); */
     float: left;
     justify-content: center;
     align-items: center;
-    margin: 3px;
-    left: 3%;
     position: relative;
   }
 
