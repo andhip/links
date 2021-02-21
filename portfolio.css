@@ -536,6 +536,12 @@ footer#connect a:hover {
   transition: all 0.5s 0s ease-in-out;
   bottom: 2.2rem;
 }
+.back-to-top {
+  -webkit-transition: all 0.5s 0s ease-in-out;
+  -moz-transition: all 0.5s 0s ease-in-out;
+  -o-transition: all 0.5s 0s ease-in-out;
+  transition: all 0.5s 0s ease-in-out;
+}
 
 @media (max-width: 768px) {
   h1 {
