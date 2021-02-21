@@ -171,8 +171,8 @@ h1 {
 
 h1 {
   font-weight: 400;
-  font-size: 20vw;
-  line-height: 13.9vw;
+  font-size: 18vw;
+  line-height: 12.5vw;
   letter-spacing: -0.01em;
   margin-top: 0;
   margin-bottom: 0;
@@ -219,7 +219,7 @@ h4 {
 }
 .h-head {
   z-index: 2;
-  margin-top: 1vw;
+  margin-top: 0.3vw;
   padding-top: 4vw;
   position: relative;
 }
