@@ -594,8 +594,8 @@ footer#connect a:hover {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(4.7px);
-    -webkit-filter: blur(4.7px);
+    filter: blur(2.7px);
+    -webkit-filter: blur(2.7px);
     /* -webkit-filter: grayscale(88%);
   filter: grayscale(88%); */
     float: left;
@@ -614,7 +614,7 @@ footer#connect a:hover {
   .h-tape {
     position: absolute;
     left: 5.8vw;
-    bottom: 4vw;
+    bottom: 5.4vw;
     width: 85%;
   }
   svg:not(root) {
@@ -762,8 +762,8 @@ footer#connect a:hover {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(4.7px);
-    -webkit-filter: blur(4.7px);
+    filter: blur(2.7px);
+    -webkit-filter: blur(2.7px);
     /* -webkit-filter: grayscale(88%);
   filter: grayscale(88%); */
     float: left;
@@ -776,7 +776,7 @@ footer#connect a:hover {
   .h-tape {
     position: absolute;
     left: 8.2vw;
-    bottom: 4vw;
+    bottom: 5.4vw;
     width: 80%;
   }
   svg:not(root) {
