@@ -434,6 +434,10 @@ footer#connect a:hover {
   color: var(--main-color);
   font-family: "NF Chimaera Sans", sans-serif;
 }
+img.resize {
+  width: 100px;
+  height: auto;
+}
 .portfolio img {
   border-radius: 12px;
   -webkit-filter: grayscale(90%);
