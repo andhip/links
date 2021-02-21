@@ -352,7 +352,7 @@ svg:not(root) {
   padding-bottom: 4vw;
 }
 .i-wrap {
-  padding-top: 8.8vw;
+  padding-top: 12vw;
   padding-left: 32vw;
 }
 .i-box {
@@ -577,8 +577,8 @@ img.resize {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "Saol Display", sans-serif;
-    font-size: 4.3vw;
-    line-height: 3.5vw;
+    font-size: 5.2vw;
+    line-height: 4vw;
   }
 
   .h-box {
@@ -669,6 +669,7 @@ img.resize {
 
   .info {
     height: auto;
+    padding-top: 12.8vw;
     padding-bottom: 4vw;
   }
 
@@ -689,12 +690,12 @@ img.resize {
     clear: both;
   }
   .i-link {
-    letter-spacing: -0.03em;
+    letter-spacing: -0.07em;
     text-decoration: none;
     color: var(--main-color);
     background-color: transparent;
-    font-size: 4.3vw;
-    line-height: 1.2em;
+    font-size: 5vw;
+    line-height: 1.4em;
   }
 
   .i-copy {
@@ -702,6 +703,7 @@ img.resize {
     font-size: 11px;
     line-height: 3.2vw;
   }
+
   footer#connect {
     background-color: transparent;
     color: var(--main-color);
@@ -745,8 +747,8 @@ img.resize {
     margin-top: 0;
     margin-bottom: 0;
     font-family: "Saol Display", sans-serif;
-    font-size: 4vw;
-    line-height: 3.5vw;
+    font-size: 5.2vw;
+    line-height: 4vw;
   }
 
   .h-box {
