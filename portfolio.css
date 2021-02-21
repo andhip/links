@@ -591,8 +591,8 @@ img.resize {
     font-size: 10px;
   }
   .h-image {
-    width: 18vw;
-    height: 18vw;
+    width: 20vw;
+    height: 20vw;
     background-image: url(assets/images/dh.jpg);
     border-radius: 100%;
     background-position: 50% 50%;
@@ -617,9 +617,9 @@ img.resize {
 	} */
   .h-tape {
     position: absolute;
-    left: 5.8vw;
+    left: 7.5vw;
     bottom: 7.9vw;
-    width: 85%;
+    width: 80%;
   }
   svg:not(root) {
     overflow: hidden;
