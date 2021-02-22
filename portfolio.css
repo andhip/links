@@ -688,7 +688,7 @@ img.resize {
     clear: both;
   }
   .i-link {
-    letter-spacing: -0.07em;
+    letter-spacing: -0.08em;
     text-decoration: none;
     color: var(--main-color);
     background-color: transparent;
