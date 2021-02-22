@@ -521,10 +521,10 @@ img.resize {
   background: transparent;
   color: var(--main-color);
   z-index: 99999;
-  -webkit-transition: 0.3s 0s ease;
-  -moz-transition: 0.3s 0s ease;
-  -o-transition: 0.3 0s ease;
-  transition: 0.3s 0s ease;
+  -webkit-transition: 0.1s 0s ease;
+  -moz-transition: 0.1s 0s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s 0s ease;
 }
 
 .back-to-top i {
@@ -542,7 +542,7 @@ img.resize {
   -moz-transition: all 0.5s 0s ease-in-out;
   -o-transition: all 0.5s 0s ease-in-out;
   transition: all 0.5s 0s ease-in-out;
-  bottom: 2.2rem;
+  bottom: 2rem;
 }
 
 @media (max-width: 768px) {
