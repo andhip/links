@@ -256,7 +256,7 @@ h4 {
   position: absolute;
   left: 0.7vw;
   bottom: 3.7vw;
-  width: 100%;
+  width: 97%;
 }
 svg:not(root) {
   overflow: hidden;
@@ -352,7 +352,7 @@ svg:not(root) {
   padding-bottom: 4vw;
 }
 .i-wrap {
-  padding-top: 12vw;
+  padding-top: 15vw;
   padding-left: 32vw;
 }
 .i-box {
@@ -385,10 +385,12 @@ svg:not(root) {
 }
 
 .i-copy {
+  position: absolute;
   color: var(--main-color);
   font-family: "NF Chimaera Sans", sans-serif;
   font-size: 13px;
   line-height: 1vw;
+  margin-top: 0.25rem;
   float: left;
 }
 
