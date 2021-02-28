@@ -378,7 +378,7 @@ svg:not(root) {
 }
 
 .i-footer {
-  margin-top: 5rem;
+  margin-top: 4rem;
   clear: both;
   float: left;
   margin-bottom: 4vw;
@@ -669,7 +669,7 @@ img.resize {
 
   .info {
     height: auto;
-    padding-top: 12.8vw;
+    padding-top: 14vw;
     padding-bottom: 4vw;
   }
 
