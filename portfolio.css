@@ -224,9 +224,12 @@ h4 {
   position: relative;
 }
 .h-title {
-  font-size: 16px;
+  line-height: 1.4;
+  font-size: 14.6px;
+  letter-spacing: 0.25px;
+  align-items: center;
   text-align: center;
-  font-family: "Saol Display", sans-serif;
+  font-family: "NF Chimaera Sans", sans-serif;
   text-transform: none;
 }
 .h-head-w {
@@ -290,7 +293,7 @@ svg:not(root) {
 .container {
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 5px auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -381,7 +384,7 @@ svg:not(root) {
   margin-top: 4rem;
   clear: both;
   float: left;
-  margin-bottom: 4vw;
+  margin-bottom: 5vw;
 }
 
 .i-copy {
@@ -425,12 +428,30 @@ footer#connect a:hover {
 /* ----------------------------------------------------------------------------- 
 # Portfolio
  ----------------------------------------------------------------------------- */
+.selling-points {
+  position: relative;
+}
+.point {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: scaleX(0.9) translateY(3rem);
+  -moz-transform: scaleX(0.9) translateY(3rem);
+  transform: scaleX(0.9) translateY(3rem);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
 
 .gallery {
   flex-wrap: wrap;
-  margin: 1rem 1rem;
+  margin: 1.2rem 1rem;
 }
 .portfolio {
+  margin-top: 1.5rem;
   align-items: center;
   justify-content: center;
   color: var(--main-color);
@@ -588,7 +609,8 @@ img.resize {
   }
 
   .h-title {
-    font-size: 10px;
+    font-size: 8.5px;
+    letter-spacing: 0.75px;
   }
   .h-image {
     width: 20vw;
@@ -758,7 +780,8 @@ img.resize {
   }
 
   .h-title {
-    font-size: 10px;
+    font-size: 8.5px;
+    letter-spacing: 0.75px;
   }
   .h-image {
     width: 18vw;

@@ -11,11 +11,11 @@ var animatePoints = function () {
 };
 
 $(window).load(function () {
-    if ($(window).height() > 950) {
+    if ($(window).height() > 920) { //for index => 950
         animatePoints();
     }
 
-    var scrollDistance = $('.selling-points').offset().top - $(window).height() + 120;
+    var scrollDistance = $('.selling-points').offset().top - $(window).height() + 280; //for index => 120
 
     $(window).scroll(function (event) {
         if ($(window).scrollTop() >= scrollDistance) {
