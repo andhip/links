@@ -663,6 +663,10 @@ img.resize {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
   }
+  .portfolio .img-fluid:hover {
+    transform: scale(0.96);
+    /* before 1.10 */
+  }
 
   .portfolio #portfolio-filters li {
     cursor: pointer;
@@ -846,6 +850,12 @@ img.resize {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
   }
+
+  .portfolio .img-fluid:hover {
+    transform: scale(0.96);
+    /* before 1.10 */
+  }
+
   .portfolio #portfolio-filters li {
     cursor: pointer;
     display: inline-block;
