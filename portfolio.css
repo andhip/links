@@ -863,12 +863,12 @@ img.resize {
   .portfolio-item {
     overflow: hidden;
     padding: 10px 15px 8px 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     flex: 1 0 24rem;
     transform: translateZ(0);
   }
   .d-obj p {
-    margin-top: 1rem !important;
+    margin-top: 0.5rem !important;
   }
   .d-obj p {
     font-size: 14px;
