@@ -476,7 +476,7 @@ img.resize {
 .portfolio-item {
   overflow: hidden;
   padding: 10px 15px 8px 15px;
-  margin-bottom: 7px;
+  margin-bottom: 1.2rem;
   flex: 1 0 24rem;
   transform: translateZ(0);
 }
@@ -489,7 +489,7 @@ img.resize {
   transition: transform 400ms ease-out;
 }
 .portfolio .img-fluid:hover {
-  transform: scale(0.94);
+  transform: scale(0.96);
   /* before 1.10 */
 }
 
@@ -529,6 +529,13 @@ img.resize {
 
 .portfolio #portfolio-filters li:last-child {
   margin-right: 0;
+}
+
+.d-obj {
+  margin-top: 2rem !important;
+}
+.d-obj p {
+  font-size: 18px;
 }
 
 /* ===========BACK2TOP========== */
@@ -669,6 +676,13 @@ img.resize {
     color: var(--main-color);
     font-family: "NF Chimaera Sans", sans-serif;
     transition: all 0.3s ease-in-out;
+  }
+
+  .portfolio-item {
+    margin-bottom: 1rem;
+  }
+  .d-obj p {
+    font-size: 14px;
   }
 
   .i-link::after {
