@@ -532,10 +532,14 @@ img.resize {
 }
 
 .d-obj {
-  margin-top: 2rem !important;
+  text-align: left;
+  float: left !important;
+  margin-top: 5px !important;
 }
+
 .d-obj p {
-  font-size: 18px;
+  font-size: 15px;
+  margin-top: -14px;
 }
 
 /* ===========BACK2TOP========== */
@@ -689,13 +693,18 @@ img.resize {
     flex: 1 0 24rem;
     transform: translateZ(0);
   }
-  .d-obj p {
-    margin-top: 1rem !important;
+
+  .d-obj {
+    text-align: left;
+    float: left !important;
+  }
+  .d-obj h6 {
+    font-size: 16px;
   }
   .d-obj p {
     font-size: 14px;
+    margin-top: -17px;
   }
-
   .i-link::after {
     content: "";
     position: absolute;
@@ -877,11 +886,17 @@ img.resize {
     flex: 1 0 24rem;
     transform: translateZ(0);
   }
-  .d-obj p {
-    margin-top: 0.5rem !important;
+
+  .d-obj {
+    text-align: left;
+    float: left !important;
+  }
+  .d-obj h6 {
+    font-size: 15px;
   }
   .d-obj p {
     font-size: 14px;
+    margin-top: -17px;
   }
 
   .i-copy {
