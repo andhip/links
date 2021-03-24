@@ -478,7 +478,7 @@ img.resize {
 
 .portfolio-item {
   overflow: hidden;
-  padding: 10px 15px 8px 15px;
+  padding: 25px 15px 8px 20px;
   margin-bottom: 1.2rem;
   flex: 1 0 24rem;
   transform: translateZ(0);
@@ -840,7 +840,6 @@ img.resize {
     border-radius: 50%;
     width: 20vw;
     height: 20vw;
-    /* background-image: url(assets/images/dh2.jpg); */
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
