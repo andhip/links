@@ -852,6 +852,7 @@ img.resize {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: -3px;
   }
   /* SVG Line Path */
   .h-tape {
