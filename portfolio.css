@@ -650,6 +650,7 @@ img.resize {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: -3px;
   }
 
   /* SVG Line Path */
@@ -852,7 +853,7 @@ img.resize {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -3px;
+    margin-top: -5px;
   }
   /* SVG Line Path */
   .h-tape {
