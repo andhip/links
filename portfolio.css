@@ -220,12 +220,12 @@ h4 {
 .h-head {
   z-index: 2;
   margin-top: 0.3vw;
-  padding-top: 4vw;
+  padding-top: 2.7vw;
   position: relative;
 }
 .h-title {
   line-height: 1.4;
-  font-size: 14.6px;
+  font-size: 14px;
   letter-spacing: 0.25px;
   align-items: center;
   text-align: center;
