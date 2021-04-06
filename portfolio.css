@@ -917,6 +917,10 @@ img.resize {
     margin-top: -17px;
   }
 
+  .i-footer {
+    margin-bottom: 1vw;
+  }
+
   .i-copy {
     color: var(--main-color);
     font-size: 11px;
