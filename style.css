@@ -102,9 +102,78 @@ p {
   border-radius: 2px;
 }
 .link-list-item:hover {
-  color: var(--dope-color);
+  color: var(--highlight-color);
   border-color: var(--highlight-color);
-  background-color: var(--highlight-color);
+  background: -webkit-linear-gradient(
+    318deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  background: -o-linear-gradient(
+    318deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  background: linear-gradient(
+    132deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  -webkit-background: text;
+  -webkit-text-fill-color: white;
+
+  background-size: 400% 4%;
+  -webkit-animation: textcolorchange 15s linear infinite;
+  animation: textcolorchange 15s linear infinite;
+}
+@-webkit-keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* typer */
@@ -130,12 +199,171 @@ p {
   text-align: center;
 }
 
+/* PORTFOL Text-Changing */
+/* .m-port {
+  background: -webkit-linear-gradient(
+    318deg,
+    #12c2e931,
+    #b92c273f,
+    #c314314d,
+    #009dff3f,
+    #ff416d44,
+    #8a23874b,
+    #ed213938
+  );
+  background: -o-linear-gradient(
+    318deg,
+    #12c2e931,
+    #b92c273f,
+    #c314314d,
+    #009dff3f,
+    #ff416d44,
+    #8a23874b,
+    #ed213938
+  );
+  background: linear-gradient(
+    132deg,
+    #12c2e931,
+    #b92c273f,
+    #c314314d,
+    #009dff3f,
+    #ff416d44,
+    #8a23874b,
+    #ed213938
+  );
+  -webkit-background: text;
+  -webkit-text-fill-color: white;
+
+  background-size: 400% 4%;
+  -webkit-animation: textcolorchange 15s linear infinite;
+  animation: textcolorchange 15s linear infinite;
+}
+@-webkit-keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+.m-port {
+  background: -webkit-linear-gradient(
+    318deg,
+    #12c2e927,
+    #b92c273f,
+    #c314314d,
+    #009dff34,
+    #ff416d44,
+    #8a23873d,
+    #ed213938
+  );
+  -webkit-text-fill-color: white !important;
+  transition: all 0.25s;
+}
+.m-port:hover {
+  background: -webkit-linear-gradient(
+    318deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  background: -o-linear-gradient(
+    318deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  background: linear-gradient(
+    132deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  -webkit-background: text;
+  -webkit-text-fill-color: white;
+
+  background-size: 400% 4%;
+  -webkit-animation: textcolorchange 15s linear infinite;
+  animation: textcolorchange 15s linear infinite;
+}
+@-webkit-keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /* octo */
-img .octo {
+/* img .octo {
   display: flex;
   position: 50% 50%;
   margin: left;
-}
+} */
 .not-allowed {
   cursor: not-allowed !important;
 }
