@@ -223,7 +223,7 @@ h4 {
   padding-top: 2.7vw;
   position: relative;
 }
-.h-title {
+/* .h-title {
   line-height: 1.4;
   font-size: 14px;
   letter-spacing: 0.25px;
@@ -231,7 +231,7 @@ h4 {
   text-align: center;
   font-family: "NF Chimaera Sans", sans-serif;
   text-transform: none;
-}
+} */
 .h-head-w {
   position: relative;
 }
