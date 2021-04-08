@@ -47,7 +47,9 @@
 *::before {
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #b5b5b5;
   color: var(--main-color);
@@ -492,7 +494,7 @@ img.resize {
   transition: transform 400ms ease-out;
 }
 .portfolio .img-fluid:hover {
-  transform: scale(0.96);
+  transform: scale(0.97);
   /* before 1.10 */
 }
 
@@ -534,10 +536,16 @@ img.resize {
   margin-right: 0;
 }
 
-.d-obj {
+.d-obj a {
   text-align: left;
+  color: var(--main-color);
   float: left !important;
   margin-top: 5px !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease-in-out;
+}
+.d-obj a:hover {
+  color: #4a4a4a;
 }
 .d-obj h6 {
   font-family: "Saol Display", sans-serif;
@@ -926,17 +934,6 @@ img.resize {
     font-size: 11px;
     line-height: 3.2vw;
   }
-  /* footer#connect {
-    background-color: transparent;
-    color: var(--main-color);
-    position: relative;
-    padding: 0.5rem;
-    margin-left: 7.5px;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
-    justify-content: center;
-  } */
 
   /* ===========BACK2TOP========== */
   .back-to-top {
