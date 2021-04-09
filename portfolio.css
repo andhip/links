@@ -47,10 +47,10 @@
 *::before {
   box-sizing: border-box;
 }
-html,
+/* html,
 body {
   overflow: hidden;
-}
+} */
 .site-wrappe {
   overflow: hidden;
   width: 100%;
@@ -406,34 +406,6 @@ svg:not(root) {
   margin-top: 0.25rem;
   float: left;
 }
-
-/* ----------------------------------------------------------------------------- 
-# Footer
- ----------------------------------------------------------------------------- */
-/* 
-footer#connect {
-  background-color: transparent;
-  color: var(--main-color);
-  position: relative;
-  padding: 0.5rem;
-  margin-left: 7px;
-  bottom: 0;
-  width: 100%;
-  z-index: 1;
-  justify-content: center;
-}
-
-footer#connect a {
-  font-size: 14px;
-}
-footer#connect a:hover {
-  font-size: 14px;
-  color: #fade01;
-  transition: all 0.25s;
-}
-#footer-links {
-  margin: auto;
-} */
 
 /* ----------------------------------------------------------------------------- 
 # Portfolio
