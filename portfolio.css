@@ -936,7 +936,7 @@ img.resize {
   }
 
   /* ===========BACK2TOP========== */
-  .back-to-top {
+  /* .back-to-top {
     position: fixed;
     display: none;
     width: 45px;
@@ -966,5 +966,31 @@ img.resize {
     -o-transition: all 0.5s 0s ease-in-out;
     transition: all 0.5s 0s ease-in-out;
     bottom: 2.2rem;
+  } */
+}
+@media only screen and (max-width: 416px) {
+  .back-to-top {
+    /* border: solid 1px var(--main-color); */
+    border: transparent;
+    background: transparent;
+    /* color: var(--main-color); */
+    color: transparent;
+    z-index: -1;
+  }
+
+  .back-to-top i {
+    /* color: var(--main-color); */
+    color: transparent;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    padding: 8px 8px 8px 9.2px;
+  }
+
+  .back-to-top:hover {
+    /* color: var(--life-color);
+    background: #27272718; */
+    color: transparent;
+    background: transparent;
   }
 }
