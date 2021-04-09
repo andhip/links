@@ -968,7 +968,7 @@ img.resize {
     bottom: 2.2rem;
   } */
 }
-@media only screen and (max-width: 416px) {
+@media only screen and (max-width: 418px) {
   .back-to-top {
     /* border: solid 1px var(--main-color); */
     border: transparent;
