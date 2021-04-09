@@ -47,14 +47,7 @@
 *::before {
   box-sizing: border-box;
 }
-/* html,
-body {
-  overflow: hidden;
-} */
-.site-wrappe {
-  overflow: hidden;
-  width: 100%;
-}
+
 body {
   background-color: #b5b5b5;
   color: var(--main-color);
