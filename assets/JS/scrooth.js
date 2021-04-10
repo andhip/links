@@ -1,8 +1,8 @@
 class Scrooth {
   constructor({
     element = window,
-    strength = 10,
-    acceleration = 1.25,
+    strength = 6,
+    acceleration = 1.5,
     deceleration = 0.951,
   } = {}) {
     this.element = element;
