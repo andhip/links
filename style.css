@@ -1,7 +1,12 @@
 /* color palette from https://www.color-hex.com/color-palettes */
+@font-face {
+  font-family: "Grotesk-Bold";
+  src: url(assets/Akzidenz\ Grotesk-Bold\ Extended.otf);
+}
 :root {
   --dope-color: #000000;
   --grey-color: #e9eaeb;
+  --text-color: #d7d6d4de;
   --highlight-color: #ffffff;
 }
 
@@ -54,17 +59,20 @@ p {
   font-weight: 600;
   font-size: 17px;
   letter-spacing: 0.25px;
+  font-family: "Grotesk-Bold";
 }
 .ig-link {
   color: var(--highlight-color);
   text-decoration: none;
   font-weight: 600;
+  font-size: small;
+  font-family: "Grotesk-Bold";
 }
 .cr p {
   color: var(--highlight-color);
   font-size: 11px;
   margin-top: 0.3rem;
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
 }
 
 .selling-points {
@@ -175,12 +183,105 @@ p {
     background-position: 0% 50%;
   }
 }
+.main-b {
+  z-index: 1;
+}
+.zdog-canvas {
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(86px);
+  -webkit-filter: blur(86px);
+  float: left;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 6.4rem;
+  top: 8rem;
+  z-index: -1;
+}
+.zdog-canvas {
+  background: -webkit-linear-gradient(
+    318deg,
+    #12c2e959,
+    #b92c2780,
+    #c3143167,
+    #009dff54,
+    #ff416d63,
+    #8a23877a,
+    #ed213967
+  );
+  background: -o-linear-gradient(
+    318deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  background: linear-gradient(
+    132deg,
+    #12c2e954,
+    #b92c276b,
+    #c3143163,
+    #009dff50,
+    #ff416d5d,
+    #8a23875b,
+    #ed213959
+  );
+  -webkit-background: text;
+  -webkit-text-fill-color: white;
 
+  background-size: 400% 20%;
+  -webkit-animation: textcolorchange 20s linear infinite;
+  animation: textcolorchange 20s linear infinite;
+}
+@-webkit-keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textcolorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /* typer */
 .word span {
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: 4px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  color: var(--text-color);
+  font-family: Grotesk-Bold;
 }
 #portfolio-body {
   height: 100%;
@@ -203,13 +304,13 @@ p {
 .m-port {
   background: -webkit-linear-gradient(
     318deg,
-    #12c2e927,
-    #b92c273f,
-    #c314314d,
-    #009dff34,
-    #ff416d44,
-    #8a23873d,
-    #ed213938
+    #12c2e91f,
+    #b92c2734,
+    #c3143142,
+    #009dff27,
+    #ff416d34,
+    #8a238731,
+    #ed21392f
   );
   -webkit-text-fill-color: white !important;
   transition: all 0.25s;
@@ -286,12 +387,7 @@ p {
     background-position: 0% 50%;
   }
 }
-/* octo */
-/* img .octo {
-  display: flex;
-  position: 50% 50%;
-  margin: left;
-} */
+
 .not-allowed {
   cursor: not-allowed !important;
 }
@@ -332,6 +428,106 @@ footer#connect a {
     height: 100%;
     width: auto;
   }
+  .zdog-canvas {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    /* background-image: url(assets/images/dh2.jpg); */
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(86px);
+    -webkit-filter: blur(86px);
+
+    /* -webkit-filter: grayscale(88%);
+    filter: grayscale(88%); */
+    float: left;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+    z-index: -1;
+  }
+  .zdog-canvas {
+    background: -webkit-linear-gradient(
+      318deg,
+      #12c2e959,
+      #b92c2780,
+      #c3143167,
+      #009dff54,
+      #ff416d63,
+      #8a23877a,
+      #ed213967
+    );
+    background: -o-linear-gradient(
+      318deg,
+      #12c2e954,
+      #b92c276b,
+      #c3143163,
+      #009dff50,
+      #ff416d5d,
+      #8a23875b,
+      #ed213959
+    );
+    background: linear-gradient(
+      132deg,
+      #12c2e954,
+      #b92c276b,
+      #c3143163,
+      #009dff50,
+      #ff416d5d,
+      #8a23875b,
+      #ed213959
+    );
+    -webkit-background: text;
+    -webkit-text-fill-color: white;
+
+    background-size: 400% 4%;
+    -webkit-animation: textcolorchange 2s linear infinite;
+    animation: textcolorchange 2s linear infinite;
+  }
+  @-webkit-keyframes textcolorchange {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 75% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes textcolorchange {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 75% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .word span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Grotesk-Bold";
+  }
   .cr p {
     color: var(--highlight-color);
     font-size: 11px;
@@ -359,10 +555,106 @@ footer#connect a {
     height: 100%;
     width: auto;
   }
+  .zdog-canvas {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(86px);
+    -webkit-filter: blur(86px);
+    float: left;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: -1;
+  }
+  .zdog-canvas {
+    background: -webkit-linear-gradient(
+      318deg,
+      #12c2e959,
+      #b92c2780,
+      #c3143167,
+      #009dff54,
+      #ff416d63,
+      #8a23877a,
+      #ed213967
+    );
+    background: -o-linear-gradient(
+      318deg,
+      #12c2e954,
+      #b92c276b,
+      #c3143163,
+      #009dff50,
+      #ff416d5d,
+      #8a23875b,
+      #ed213959
+    );
+    background: linear-gradient(
+      132deg,
+      #12c2e954,
+      #b92c276b,
+      #c3143163,
+      #009dff50,
+      #ff416d5d,
+      #8a23875b,
+      #ed213959
+    );
+    -webkit-background: text;
+    -webkit-text-fill-color: white;
+
+    background-size: 400% 4%;
+    -webkit-animation: textcolorchange 20s linear infinite;
+    animation: textcolorchange 20s linear infinite;
+  }
+  @-webkit-keyframes textcolorchange {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 75% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes textcolorchange {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 75% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .word span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    font-family: "Grotesk-Bold";
+  }
   .cr p {
     color: var(--highlight-color);
     font-size: 11px;
-    margin-top: 0.15rem;
-    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 6.8rem;
   }
 }
