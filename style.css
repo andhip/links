@@ -535,7 +535,7 @@ footer#connect a {
     margin-bottom: 6.8rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 368px) {
   .container .link-list {
     margin-bottom: 0.5rem;
   }
@@ -555,99 +555,11 @@ footer#connect a {
     height: 100%;
     width: auto;
   }
-  .zdog-canvas {
-    border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: blur(86px);
-    -webkit-filter: blur(86px);
-    float: left;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 2rem;
-    top: 6rem;
-    z-index: -1;
-  }
-  .zdog-canvas {
-    background: -webkit-linear-gradient(
-      318deg,
-      #12c2e959,
-      #b92c2780,
-      #c3143167,
-      #009dff54,
-      #ff416d63,
-      #8a23877a,
-      #ed213967
-    );
-    background: -o-linear-gradient(
-      318deg,
-      #12c2e954,
-      #b92c276b,
-      #c3143163,
-      #009dff50,
-      #ff416d5d,
-      #8a23875b,
-      #ed213959
-    );
-    background: linear-gradient(
-      132deg,
-      #12c2e954,
-      #b92c276b,
-      #c3143163,
-      #009dff50,
-      #ff416d5d,
-      #8a23875b,
-      #ed213959
-    );
-    -webkit-background: text;
-    -webkit-text-fill-color: white;
 
-    background-size: 400% 4%;
-    -webkit-animation: textcolorchange 20s linear infinite;
-    animation: textcolorchange 20s linear infinite;
-  }
-  @-webkit-keyframes textcolorchange {
-    0% {
-      background-position: 0% 50%;
-    }
-    25% {
-      background-position: 50% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    75% {
-      background-position: 75% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  @keyframes textcolorchange {
-    0% {
-      background-position: 0% 50%;
-    }
-    25% {
-      background-position: 50% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    75% {
-      background-position: 75% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
   .word span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.25px;
     color: var(--text-color);
     font-family: "Grotesk-Bold";
   }
