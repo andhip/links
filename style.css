@@ -6,7 +6,7 @@
 :root {
   --dope-color: #000000;
   --grey-color: #e9eaeb;
-  --text-color: #d7d6d4de;
+  --text-color: #d7d6d4e3;
   --highlight-color: #ffffff;
 }
 
@@ -65,7 +65,7 @@ p {
   color: var(--highlight-color);
   text-decoration: none;
   font-weight: 600;
-  font-size: small;
+  font-size: 12px;
   font-family: "Grotesk-Bold";
 }
 .cr p {
@@ -216,13 +216,13 @@ p {
   );
   background: -o-linear-gradient(
     318deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e959,
+    #b92c2780,
+    #c3143167,
+    #009dff54,
+    #ff416d63,
+    #8a23877a,
+    #ed213967
   );
   background: linear-gradient(
     132deg,
@@ -237,7 +237,7 @@ p {
   -webkit-background: text;
   -webkit-text-fill-color: white;
 
-  background-size: 400% 20%;
+  background-size: 400% 60%;
   -webkit-animation: textcolorchange 20s linear infinite;
   animation: textcolorchange 20s linear infinite;
 }
@@ -277,9 +277,9 @@ p {
 }
 /* typer */
 .word span {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.25px;
   color: var(--text-color);
   font-family: Grotesk-Bold;
 }
