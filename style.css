@@ -29,12 +29,16 @@ html {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #424242;
+  background: #696d74f1;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
-::-webkit-scrollbar-thumb:window-inactive {
-  background: #424242;
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #71757cab;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
+
 body {
   background: var(--dope-color);
   color: var(--highlight-color);

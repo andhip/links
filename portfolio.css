@@ -586,7 +586,7 @@ img.resize {
   bottom: 2rem;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 20vw;
     line-height: 14vw;
@@ -673,6 +673,9 @@ img.resize {
     display: table;
   }
 
+  .gallery {
+    margin-top: 2.2rem;
+  }
   .portfolio img {
     border-radius: 6px;
     -webkit-filter: grayscale(90%);
@@ -701,6 +704,7 @@ img.resize {
     overflow: hidden;
     padding: 10px 15px 8px 15px;
     margin-bottom: 1rem;
+    margin-left: 6rem;
     flex: 1 0 24rem;
     transform: translateZ(0);
   }
@@ -959,7 +963,40 @@ img.resize {
     bottom: 2.2rem;
   } */
 }
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 480px) {
+  .portfolio img {
+    border-radius: 6px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+  }
+
+  .portfolio .img-fluid:hover {
+    transform: scale(0.96);
+    /* before 1.10 */
+  }
+
+  .portfolio #portfolio-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: none;
+    color: var(--main-color);
+    font-family: "NF Chimaera Sans", sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .portfolio-item {
+    overflow: hidden;
+    padding: 10px 15px 8px 15px;
+    margin-bottom: 0.5rem;
+    flex: 1 0 24rem;
+    transform: translateZ(0);
+  }
+
   .back-to-top {
     /* border: solid 1px var(--main-color); */
     border: transparent;
