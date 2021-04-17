@@ -63,11 +63,11 @@
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #272727a2;
+  background: #27272791;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
-::-webkit-scrollbar-thumb:window-inactive {
-  background: #2727276b;
+::-webkit-scrollbar-thumb:hover {
+  background: #27272783;
 }
 body {
   background-color: #b5b5b5;

@@ -30,8 +30,12 @@ limitations under the License. -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+	
+	<!-- Main CSS -->
 	<link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="typer.css">
+	<link rel="stylesheet" href="assets/css/preload.css">
+
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<title>Andy Nhov</title>
 	<link rel="icon" href="assets/images/a_b5F_icon.ico">
@@ -47,6 +51,12 @@ limitations under the License. -->
 </head>
 
 <body>
+
+	<div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-up"></div>
+    </div>
+	
 	<div class="h-image">
 		<canvas class="zdog-canvas" width="240" height="240"></canvas>
 	</div>
@@ -177,6 +187,7 @@ limitations under the License. -->
 	</footer>
 	<script defer src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script defer src="script.js"></script>
+	<script defer src="assets/JS/preload.js"></script>
 	<script defer src="animate.js"></script>
 	<script defer src="assets/JS/scrooth.js"></script>
 </body>

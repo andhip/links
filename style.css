@@ -561,6 +561,7 @@ footer#connect a {
     margin-bottom: 6.8rem;
   }
 }
+
 @media (max-width: 368px) {
   .container .link-list {
     margin-bottom: 0.5rem;
