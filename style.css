@@ -59,7 +59,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.5px;
   font-family: "Grotesk-Bold";
 }
 .ig-link {
@@ -278,10 +278,10 @@ p {
 }
 /* typer */
 .word span {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.25px;
-  color: var(--text-color);
+  color: var(--highlight-color);
   font-family: Grotesk-Bold;
 }
 #portfolio-body {

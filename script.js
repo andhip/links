@@ -1,3 +1,4 @@
+console.log("© 2020 Andynhov All rights reserved");
 var typer = {
   words: ["FRONT-END DEVELOPER", "DESIGNER", "BUILDER", "FORWARD-THINKER"],
   wordIndex: 0,
@@ -56,8 +57,6 @@ var typer = {
 
 typer.init();
 
-console.log("© 2020 Andynhov All rights reserved");
-
 $(document).ready(() => {
   window.dataLayer = window.dataLayer || [];
   function gtag() {
@@ -65,7 +64,7 @@ $(document).ready(() => {
   }
   gtag("js", new Date());
 
-  gtag("config", "UA-177429414-1");
+  gtag("config", "G-T32ZF10V6S");
 });
 
 document.addEventListener(
