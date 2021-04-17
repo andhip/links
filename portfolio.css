@@ -704,7 +704,6 @@ img.resize {
     overflow: hidden;
     padding: 10px 15px 8px 15px;
     margin-bottom: 1rem;
-    margin-left: 6rem;
     flex: 1 0 24rem;
     transform: translateZ(0);
   }
