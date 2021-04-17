@@ -794,7 +794,7 @@ img.resize {
   } */
 }
 
-@media (max-width: 360px) {
+@media only screen and (max-width: 480px) {
   h1 {
     font-size: 20vw;
     line-height: 14.2vw;
@@ -920,6 +920,55 @@ img.resize {
     margin-top: -17px;
   }
 
+  .i-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 1.6vw;
+    bottom: 0;
+    left: 0;
+    background-color: #0d0d0d;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  .i-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .info {
+    height: auto;
+    padding-top: 14vw;
+    padding-bottom: 4vw;
+  }
+
+  .i-wrap {
+    padding-top: 10vw;
+    padding-left: 32vw;
+  }
+
+  .i-list {
+    margin-top: 6vw;
+    clear: both;
+    float: left;
+  }
+  .i-item {
+    margin-bottom: 0.8vw;
+    float: left;
+    position: relative;
+    clear: both;
+  }
+  .i-link {
+    letter-spacing: -0.08em;
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: transparent;
+    font-size: 5vw;
+    line-height: 1.4em;
+  }
+
   .i-footer {
     margin-bottom: 1vw;
   }
@@ -962,41 +1011,6 @@ img.resize {
     transition: all 0.5s 0s ease-in-out;
     bottom: 2.2rem;
   } */
-}
-@media only screen and (max-width: 480px) {
-  .portfolio img {
-    border-radius: 6px;
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
-  }
-
-  .portfolio .img-fluid:hover {
-    transform: scale(0.96);
-    /* before 1.10 */
-  }
-
-  .portfolio #portfolio-filters li {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 15px 8px 15px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: none;
-    color: var(--main-color);
-    font-family: "NF Chimaera Sans", sans-serif;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .portfolio-item {
-    overflow: hidden;
-    padding: 10px 15px 8px 15px;
-    margin-bottom: 0.5rem;
-    flex: 1 0 24rem;
-    transform: translateZ(0);
-  }
-
   .back-to-top {
     /* border: solid 1px var(--main-color); */
     border: transparent;
