@@ -47,9 +47,6 @@
 *::before {
   box-sizing: border-box;
 }
-html {
-  overflow: auto;
-}
 
 ::-webkit-scrollbar {
   width: 12px;
