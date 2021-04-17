@@ -590,27 +590,6 @@ img.resize {
 }
 
 @media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    width: 9px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #272727a2;
-    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
-  }
-  ::-webkit-scrollbar-thumb:window-inactive {
-    background: #2727276b;
-  }
   h1 {
     font-size: 20vw;
     line-height: 14vw;
