@@ -1,4 +1,3 @@
-console.log("© 2020 Andynhov All rights reserved");
 var typer = {
   words: ["FRONT-END DEVELOPER", "DESIGNER", "BUILDER", "FORWARD-THINKER"],
   wordIndex: 0,
