@@ -16,7 +16,7 @@ $(window).load(function () {
   }
 
   var scrollDistance =
-    $(".selling-points").offset().top - $(window).height() + 280; //for index => 120
+    $(".selling-points").offset().top - $(window).height() + 230; //for index => 120
 
   $(window).scroll(function (event) {
     if ($(window).scrollTop() >= scrollDistance) {
