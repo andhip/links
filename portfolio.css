@@ -793,7 +793,7 @@ img.resize {
   } */
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 20vw;
     line-height: 14.2vw;

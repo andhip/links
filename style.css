@@ -563,6 +563,9 @@ footer#connect a {
 }
 
 @media only screen and (max-width: 480px) {
+  .ig-link {
+    font-size: 12px;
+  }
   .container .link-list {
     margin-bottom: 0.5rem;
   }
