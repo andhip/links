@@ -853,7 +853,7 @@ img.resize {
   }
 
   .h-image {
-    margin-top: -0.5rem;
+    margin-top: -0.2rem;
     margin-bottom: 0.5rem;
   }
   .zdog-canvas {
@@ -878,8 +878,8 @@ img.resize {
   /* SVG Line Path */
   .h-tape {
     position: absolute;
-    left: 4.2vw;
-    bottom: 6.6vw;
+    left: 4.5vw;
+    bottom: 7.7vw;
     width: 88%;
   }
   svg:not(root) {
