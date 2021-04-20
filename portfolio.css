@@ -504,7 +504,6 @@ img.resize {
 
 .portfolio #portfolio-filters {
   /* border: 1px solid var(--main-color); */
-  text-decoration: 25% line-through dotted #272727c0;
   box-sizing: border-box;
   margin: 0% auto;
   color: var(--main-color);
@@ -879,7 +878,7 @@ img.resize {
   .h-tape {
     position: absolute;
     left: 4.5vw;
-    bottom: 7.7vw;
+    bottom: 7.8vw;
     width: 88%;
   }
   svg:not(root) {
@@ -901,9 +900,6 @@ img.resize {
     /* before 1.10 */
   }
 
-  .portfolio #portfolio-filters {
-    text-decoration: 25% line-through dotted #27272752;
-  }
   .portfolio #portfolio-filters li {
     cursor: pointer;
     display: inline-block;
