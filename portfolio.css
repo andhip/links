@@ -192,9 +192,9 @@ h1 {
 
 h1 {
   font-weight: 400;
-  font-size: 16vw;
+  font-size: 20vw;
   line-height: 14vw;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.06em;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Saol Display", sans-serif;
@@ -241,8 +241,8 @@ h4 {
 .h-head {
   align-items: center;
   z-index: 2;
-  margin-top: 1.4vw;
-  padding-top: 4.2vw;
+  margin-top: 1.6vw;
+  padding-top: 4.6vw;
   position: relative;
 }
 .h-title {
@@ -253,7 +253,7 @@ h4 {
   text-align: center;
   font-family: "NF Chimaera Sans", sans-serif;
   text-transform: none;
-  margin-top: 0.5rem;
+  margin-top: 1.3rem;
 }
 .h-head-w {
   position: relative;
@@ -280,9 +280,9 @@ h4 {
 /* SVG Line Path */
 .h-tape {
   position: absolute;
-  left: 0;
-  bottom: 5.5vw;
-  width: 103%;
+  left: -2vw;
+  bottom: 5.8vw;
+  width: 105%;
 }
 @media only screen and (width: 1024px) {
   .h-tape {
@@ -485,7 +485,7 @@ img.resize {
 .portfolio-item {
   overflow: hidden;
   padding: 25px 15px 8px 20px;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.8rem;
   flex: 1 0 24rem;
   transform: translateZ(0);
 }
@@ -500,6 +500,10 @@ img.resize {
 .portfolio .img-fluid:hover {
   transform: scale(1.01);
   /* before 1.10 */
+}
+
+.bott-port {
+  margin: 0 auto;
 }
 
 .portfolio #portfolio-filters {
@@ -558,7 +562,7 @@ img.resize {
 }
 
 .d-obj p {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: -14px;
 }
 
@@ -601,7 +605,7 @@ img.resize {
 
 @media only screen and (min-device-width: 481px) and (max-width: 768px) {
   h1 {
-    font-size: 16vw;
+    font-size: 20vw;
     line-height: 14vw;
     letter-spacing: -0.07em;
   }
@@ -808,9 +812,9 @@ img.resize {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 16vw;
+    font-size: 20vw;
     line-height: 14vw;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.06em;
   }
 
   h1,
