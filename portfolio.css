@@ -882,7 +882,7 @@ img.resize {
   .h-tape {
     position: absolute;
     left: 4.5vw;
-    bottom: 8vw;
+    bottom: 8.5vw;
     width: 87%;
   }
   svg:not(root) {
