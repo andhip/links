@@ -882,8 +882,8 @@ img.resize {
   .h-tape {
     position: absolute;
     left: 4.5vw;
-    bottom: 7.8vw;
-    width: 88%;
+    bottom: 8vw;
+    width: 87%;
   }
   svg:not(root) {
     overflow: hidden;
