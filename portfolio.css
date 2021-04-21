@@ -282,7 +282,7 @@ h4 {
   position: absolute;
   left: 0;
   bottom: 5vw;
-  width: 98%;
+  width: 96%;
 }
 @media only screen and (width: 1024px) {
   .h-tape {
@@ -607,7 +607,7 @@ img.resize {
 @media only screen and (min-device-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 20vw;
-    line-height: 14vw;
+    line-height: 11vw;
     letter-spacing: -0.07em;
   }
 
@@ -681,7 +681,7 @@ img.resize {
     position: absolute;
     left: 4.2vw;
     bottom: 6vw;
-    width: 88%;
+    width: 86%;
   }
   svg:not(root) {
     overflow: hidden;
@@ -890,9 +890,9 @@ img.resize {
   /* SVG Line Path */
   .h-tape {
     position: absolute;
-    left: 4.5vw;
+    left: 4.6vw;
     bottom: 8vw;
-    width: 85%;
+    width: 81%;
   }
   svg:not(root) {
     overflow: hidden;
