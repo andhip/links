@@ -193,8 +193,8 @@ h1 {
 h1 {
   font-weight: 400;
   font-size: 20vw;
-  line-height: 14vw;
-  letter-spacing: -0.06em;
+  line-height: 11vw;
+  letter-spacing: -0.07em;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Saol Display", sans-serif;
@@ -242,7 +242,7 @@ h4 {
   align-items: center;
   z-index: 2;
   margin-top: 1.6vw;
-  padding-top: 4.6vw;
+  padding-top: 5.3vw;
   position: relative;
 }
 .h-title {
@@ -273,16 +273,16 @@ h4 {
 }
 .h-box {
   margin-right: 7vw;
-  margin-left: 8.5vw;
-  padding-top: 8vw;
+  margin-left: 9vw;
+  padding-top: 8.5vw;
 }
 
 /* SVG Line Path */
 .h-tape {
   position: absolute;
-  left: -2vw;
-  bottom: 5.8vw;
-  width: 105%;
+  left: 0;
+  bottom: 5vw;
+  width: 98%;
 }
 @media only screen and (width: 1024px) {
   .h-tape {
@@ -301,8 +301,9 @@ svg:not(root) {
 }
 
 .h-image {
-  margin-top: -1rem;
+  margin-top: -0.2rem;
   margin-bottom: 1rem;
+  margin-left: 1vw;
 }
 .zdog-canvas {
   background: radial-gradient(circle at top center, #b8b8b8e5 15px, #242424);
@@ -792,9 +793,14 @@ img.resize {
   }
 
   .i-copy {
+    text-align: left;
+    position: absolute;
     color: var(--main-color);
-    font-size: 11px;
-    line-height: 3.2vw;
+    font-family: "NF Chimaera Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1vw;
+    margin-top: 0.25rem;
+    float: left;
   }
 
   /* footer#connect {
@@ -813,7 +819,7 @@ img.resize {
 @media (max-width: 480px) {
   h1 {
     font-size: 20vw;
-    line-height: 14vw;
+    line-height: 11vw;
     letter-spacing: -0.06em;
   }
 
@@ -844,6 +850,9 @@ img.resize {
     line-height: 4vw;
   }
 
+  .h-head {
+    margin-right: 3.6vw;
+  }
   .h-box {
     margin-right: 7vw;
     margin-left: 5vw;
@@ -882,8 +891,8 @@ img.resize {
   .h-tape {
     position: absolute;
     left: 4.5vw;
-    bottom: 8.5vw;
-    width: 87%;
+    bottom: 8vw;
+    width: 85%;
   }
   svg:not(root) {
     overflow: hidden;
