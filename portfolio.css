@@ -342,23 +342,6 @@ svg:not(root) {
   z-index: 1;
 }
 
-/* .circle-shape {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 2px solid rgb(151, 151, 151);
-  margin: 0 auto;
-} */
-
-/* .profile-pic {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-} */
-
 .link-list a {
   color: var(--main-color);
   text-decoration: none;
