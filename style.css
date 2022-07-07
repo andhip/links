@@ -66,8 +66,8 @@ p {
 }
 
 .circle-shape {
-  width: 140px;
-  height: 140px;
+  width: 135px;
+  height: 135px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -100,7 +100,7 @@ p {
 }
 .cr p {
   color: var(--highlight-color);
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 0.3rem;
   margin-bottom: 10rem;
 }
@@ -334,12 +334,12 @@ p {
 .m-port {
   background: -webkit-linear-gradient(
     318deg,
-    #12c2e91f,
+    #12c2e927,
     #b92c2734,
     #c3143142,
-    #009dff27,
+    #009dff31,
     #ff416d34,
-    #8a238731,
+    #8a23873f,
     #ed21392f
   );
   -webkit-text-fill-color: white !important;
