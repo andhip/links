@@ -25,16 +25,16 @@ var hour = new Date().getHours();
 let doo;
 if (hour < 5) {
   doo = "dreaming";
-} else if (hour > 5 && hour <= 8) {
+} else if (hour >= 5 && hour <= 8) {
   doo = "making coffee";
-} else if (hour > 8 && hour <= 12) {
+} else if (hour >= 8 && hour <= 12) {
   doo = "designing things";
-} else if (hour > 12 && hour <= 18) {
+} else if (hour >= 12 && hour <= 18) {
   doo = "bringing ideas to life";
-} else if (hour > 18 && hour <= 21) {
-  doo = "relaxing with fams";
+} else if (hour >= 18 && hour <= 21) {
+  doo = "relaxing with my fams";
 } else {
-  doo = "404 meditation";
+  doo = "meditation";
 }
 
 document.getElementById("mod__doo").innerHTML = doo;
