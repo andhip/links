@@ -216,7 +216,7 @@ p {
 .main-b {
   z-index: 1;
 }
-.zdog-canvas {
+/* .zdog-canvas {
   border-radius: 50%;
   width: 20vw;
   height: 20vw;
@@ -229,8 +229,8 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 6.4rem;
-  top: 8.8rem;
+  right: 1.2rem;
+  top: 1rem;
   z-index: -1;
 }
 .zdog-canvas {
@@ -304,7 +304,7 @@ p {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 /* typer */
 .word span {
   font-size: 1.3rem;
