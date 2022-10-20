@@ -95,8 +95,12 @@ p {
   color: var(--highlight-color);
   text-decoration: none;
   font-weight: 600;
-  font-size: 11px;
+  font-size: 12px;
   font-family: "Grotesk-Bold";
+}
+.ig-link img{
+  width: 15px;
+  height: auto;
 }
 .cr p {
   color: var(--highlight-color);
@@ -105,10 +109,10 @@ p {
   margin-bottom: 10rem;
 }
 
-.selling-points {
+/* .selling-points {
   position: relative;
-}
-.point {
+} */
+/* .point {
   position: relative;
   text-align: center;
   opacity: 0;
@@ -121,7 +125,7 @@ p {
   -webkit-transition-delay: 0.2s;
   -moz-transition-delay: 0.2s;
   transition-delay: 0.2s;
-}
+} */
 
 .ig-link {
   color: var(--highlight-color);
@@ -140,37 +144,38 @@ p {
   border-radius: 2px;
 }
 .link-list-item:hover {
+  letter-spacing: .78px;
   color: var(--highlight-color);
   border-color: var(--highlight-color);
   background: -webkit-linear-gradient(
     318deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   background: -o-linear-gradient(
     318deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   background: linear-gradient(
     132deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   -webkit-background: text;
   -webkit-text-fill-color: white;
@@ -216,95 +221,7 @@ p {
 .main-b {
   z-index: 1;
 }
-/* .zdog-canvas {
-  border-radius: 50%;
-  width: 20vw;
-  height: 20vw;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(86px);
-  -webkit-filter: blur(86px);
-  float: left;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 1.2rem;
-  top: 1rem;
-  z-index: -1;
-}
-.zdog-canvas {
-  background: -webkit-linear-gradient(
-    318deg,
-    #12c2e959,
-    #b92c2780,
-    #c3143167,
-    #009dff54,
-    #ff416d63,
-    #8a23877a,
-    #ed213967
-  );
-  background: -o-linear-gradient(
-    318deg,
-    #12c2e959,
-    #b92c2780,
-    #c3143167,
-    #009dff54,
-    #ff416d63,
-    #8a23877a,
-    #ed213967
-  );
-  background: linear-gradient(
-    132deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
-  );
-  -webkit-background: text;
-  -webkit-text-fill-color: white;
 
-  background-size: 400% 60%;
-  -webkit-animation: textcolorchange 18s linear infinite;
-  animation: textcolorchange 18s linear infinite;
-}
-@-webkit-keyframes textcolorchange {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 50% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 75% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes textcolorchange {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 50% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 75% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 /* typer */
 .word span {
   font-size: 1.3rem;
@@ -348,33 +265,33 @@ p {
 .m-port:hover {
   background: -webkit-linear-gradient(
     318deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   background: -o-linear-gradient(
     318deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   background: linear-gradient(
     132deg,
-    #12c2e954,
-    #b92c276b,
-    #c3143163,
-    #009dff50,
-    #ff416d5d,
-    #8a23875b,
-    #ed213959
+    #12c2e927,
+    #b92c2734,
+    #c3143142,
+    #009dff31,
+    #ff416d34,
+    #8a23873f,
+    #ed21392f
   );
   -webkit-background: text;
   -webkit-text-fill-color: white;
