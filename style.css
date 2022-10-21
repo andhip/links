@@ -144,7 +144,7 @@ p {
   border-radius: 2px;
 }
 .link-list-item:hover {
-  letter-spacing: .78px;
+  letter-spacing: .85px;
   color: var(--highlight-color);
   border-color: var(--highlight-color);
   background: -webkit-linear-gradient(
@@ -226,7 +226,7 @@ p {
 .word span {
   font-size: 1.3rem;
   font-weight: bold;
-  letter-spacing: 0.25px;
+  letter-spacing: .5px;
   color: var(--highlight-color);
   font-family: Grotesk-Bold;
 }
@@ -507,6 +507,10 @@ footer#connect a {
     margin: 0 auto;
     height: 100%;
     width: auto;
+  }
+
+  .ig-link img{
+    width: 13.2px;
   }
 
   .word span {
