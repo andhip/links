@@ -517,21 +517,15 @@ footer#connect a i:hover {
     
   /* PORTFOL Text-Changing */
   .m-port {
-    /* background: -webkit-linear-gradient(
-      318deg,
-      #12c2e927,
-      #b92c2734,
-      #c3143142,
-      #009dff31,
-      #ff416d34,
-      #8a23873f,
-      #ed21392f
-    ); */
     background: rgba(255, 255, 255, 0.13);
     border-radius: 55px;
     backdrop-filter: blur(3.8px);
     -webkit-backdrop-filter: blur(3.8px);
       transition: all 0.25s;
+  }
+  .link-list-item:hover{
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
   }
 
   .cr p {
@@ -542,7 +536,7 @@ footer#connect a i:hover {
   }
   .time__mod{
     position: relative;
-    margin-bottom: 6rem;
+    margin-bottom: 18rem;
   }
  
 }
