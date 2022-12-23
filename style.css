@@ -113,9 +113,9 @@ p {
 }
 .cr p {
   color: var(--highlight-color);
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 0.3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 5.6rem;
 }
 
 /* .selling-points {
