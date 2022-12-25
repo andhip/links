@@ -154,7 +154,7 @@ p {
   letter-spacing: .5px;
 }
 .link-list-item:hover {
-  letter-spacing: .95px;
+  letter-spacing: 1px;
   color: var(--highlight-color);
   border-color: var(--highlight-color);
   /* background: -webkit-linear-gradient(
@@ -190,8 +190,8 @@ p {
   background: rgba(255, 255, 255, 0.13);
   border-radius: 55px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
     transition: all 0.25s;
   -webkit-background: text;
   -webkit-text-fill-color: white;
