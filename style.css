@@ -516,6 +516,9 @@ footer#connect a i:hover {
     font-family: "Grotesk-Bold";
   }
 
+  .link-list-item {
+    border: 1.5px solid var(--text-color);
+  }
     
   /* PORTFOL Text-Changing */
   .m-port {
