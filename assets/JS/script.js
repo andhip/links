@@ -32,7 +32,7 @@ if (hour < 5) {
 } else if (hour >= 12 && hour <= 18) {
   doo = "bringing ideas to life";
 } else if (hour >= 18 && hour <= 21) {
-  doo = "relaxing with my fam";
+  doo = "Quiet mode: recharge & reset.";
 } else {
   doo = "meditation";
 }
