@@ -13,12 +13,12 @@ html {
   overflow: auto;
 }
 
-::-webkit-scrollbar {
+::-webkit-sollbar {
   width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-sollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(71, 71, 71, 0.425);
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -32,7 +32,7 @@ html {
   background: #696d74f1;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
-::-webkit-scrollbar-thumb:hover {
+::-webkit-sollbar-thumb:hover {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #71757cab;
@@ -71,7 +71,7 @@ p {
   text-align: center;
 }
 .container .link-list {
-  margin-bottom: 15rem;
+  margin-bottom: 8rem;
 }
 
 .circle-shape {
@@ -111,11 +111,11 @@ p {
   width: 15px;
   height: auto;
 }
-.cr p {
+. p {
   color: var(--highlight-color);
   font-size: 13px;
   margin-top: 0.3rem;
-  margin-bottom: 5.6rem;
+  margin-bottom: 3.6rem;
 }
 
 /* .selling-points {
@@ -459,7 +459,7 @@ footer#connect a i:hover {
     color: white;
     font-family: "Grotesk-Bold";
   }
-  .cr p {
+  . p {
     display: none;
 
     /* color: var(--highlight-color);
@@ -479,7 +479,7 @@ footer#connect a i:hover {
   margin-bottom:20rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only seen and (max-width: 480px) {
   .ig-link {
     font-size: 12px;
   }
@@ -533,7 +533,7 @@ footer#connect a i:hover {
     -webkit-backdrop-filter: blur(8px);
   }
 
-  .cr p {
+  . p {
     /* color: var(--highlight-color);
     font-size: 11px;
     margin-top: 0.5rem;
